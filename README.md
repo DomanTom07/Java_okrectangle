@@ -1,7 +1,7 @@
-# rerectangle
+# okrectangle
 
 Téglalap kerület-, területszámítás.
 
-Refaktorálja a tisztakód alapelvei szerint.
+Refaktorálva a tisztakód alapelvei szerint.
 
-2022-11-21
+2022-12-05
