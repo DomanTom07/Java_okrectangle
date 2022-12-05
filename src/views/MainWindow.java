@@ -31,6 +31,7 @@ public class MainWindow extends JFrame {
     public ButtonsPanel buttonsPanel;
     public PerimeterPanel perimeterPanel;
     public AreaPanel areaPanel;
+    public JLabel aboutLabel;
     /*
     * Az oldal és b oldal bekérése egyetlen felhasználói felületen 
     * történik. Középen lesz két gomb. Az egyik a számító, másik
@@ -50,6 +51,7 @@ public class MainWindow extends JFrame {
         this.buttonsPanel = new ButtonsPanel();
         this.perimeterPanel = new PerimeterPanel();
         this.areaPanel = new AreaPanel();
+        this.aboutLabel = new JLabel("Tamás Domán, Szoft II N, 2022-12-05");
     }
     public void addComponentsToWindow() {
         this.add(this.titleLabel);
@@ -58,6 +60,7 @@ public class MainWindow extends JFrame {
         this.add(this.buttonsPanel);
         this.add(this.perimeterPanel);
         this.add(this.areaPanel);
+        this.add(this.aboutLabel);
     }
     public void initWindow() {
         this.setLayout(new BoxLayout(this.getContentPane(), BoxLayout.PAGE_AXIS));
